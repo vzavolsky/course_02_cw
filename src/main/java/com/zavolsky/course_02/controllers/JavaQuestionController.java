@@ -16,7 +16,7 @@ public class JavaQuestionController {
         this.questions = questions;
     }
 
-    @GetMapping(path = "java/")
+    @GetMapping(path = "/java")
     public Collection<Question> getAll() {
         return questions.getAll();
     }
